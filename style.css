@@ -16,12 +16,23 @@ h2 {
 	text-align: center;
 }
 
+label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	border: 1px solid #97a7ca;
+	padding: 5px 12px;
+	border-radius: 25px;
+}
+
 input {
 	background-color: transparent;
 	padding: 5px 5px;
 	border-color: #97a7ca;
 	color: #edf3ff;
-	border-radius: 10px;
+	border: none;
+	border-radius: none;
 	outline: none;
 	font-size: 20px;
 	width: 200px;
@@ -29,13 +40,26 @@ input {
 
 button {
 	color: white;
-	padding: 5px 5px;
-	background-color: #97a7ca;
-	border-radius: 10px;
+	padding: 0;
+	background-color: transparent;
 	outline: none;
 	font-size: 20px;
 	cursor: pointer;
+	border: none;
+	transition: transform 0.5s ease;
 }
+
+span {
+	margin-right: 5px
+}
+
+.material-icons {
+	transition: transform 0.5s ease;
+}
+.material-icons:hover {
+	transform: rotate(-180deg);
+}
+
 
 .show {
 	display: none;
