@@ -1,4 +1,4 @@
-const sheetId = "1pDWWDShH4wvdb1Snma7_pvqJ_7CwsPayZEaswDGa7VE";
+const sheetId = "1LDcinpxGhxth9nj3Ag-JaW5zAIz0psUHTlseG4I1Umo";
 const sheetName = "points";
 const sheetURL = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
 const output = document.getElementById('getData');
